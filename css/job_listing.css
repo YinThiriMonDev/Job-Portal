@@ -1,0 +1,149 @@
+table {
+
+
+    padding: 0px;
+    border: none;
+    margin: auto;
+
+}
+
+table tr {
+
+    border: none;
+    color: none;
+
+}
+
+table th {
+    border-color: black;
+}
+
+table td {
+
+    border: none;
+    padding: 6px;
+}
+
+.job_name_td {
+    font-size: 3em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.salary_td {
+    color: red;
+}
+
+.company_name_td {}
+
+.description_td {}
+
+.requirements_td {}
+
+.location_td {}
+
+.btn_delete {
+    background: #fff;
+    color: darked;
+    font-size: 1.2em;
+    padding: 5px 30px;
+    text-decoration: none;
+}
+
+.btn_delete:hover {
+    background: red;
+    color: #fff;
+}
+
+.btn_edit {
+    background: #fff;
+    color: darked;
+    font-size: 1.2em;
+    padding: 5px 30px;
+    text-decoration: none;
+    border: 5px;
+}
+
+.btn_edit:hover {
+    background: #eaed16;
+    color: black;
+}
+
+.back_button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #504d4c;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 1.2em;
+    padding: 20px;
+    width: 119px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    height: 55px;
+    margin-left: 860px;
+    margin-top: 10px;
+}
+
+.back_button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.back_button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.back_button:hover span {
+    padding-right: 25px;
+}
+
+.back_button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-input {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    width: 200px;
+    font-size: 16px;
+    outline: none;
+}
+
+.search-button {
+    background-color: blue;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    margin-left: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.search-button:hover {
+    background-color: blue;
+}
+
+.search_div {
+
+    margin-bottom: 40px;
+}
+
+
